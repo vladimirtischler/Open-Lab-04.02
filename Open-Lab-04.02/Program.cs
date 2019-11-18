@@ -7,11 +7,11 @@ namespace Open_Lab_04._02
         public static string DoubleChar(string original)
         {
             string a = "";
-            for (int i = 0;i < original.Length;i++)
+            for (int w = 0;w < original.Length;w++)
             {
                 for (int c = 0;c < 2;c++)
                 {
-                    a = a + original[i];
+                    a = a + original[w];
                 }
             }
             return a;
